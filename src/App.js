@@ -3,10 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import CKEditor from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
-//import S3UploadAdapterPlugin from './modules/S3UploadAdapter';
 
 import SpacesUploadAdapterPlugin from './modules/SpacesUploadAdapter';
-//import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 class App extends Component {
   render() {
     return (
